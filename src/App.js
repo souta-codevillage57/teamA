@@ -9,7 +9,7 @@ import {
 
 
 import ItemSelect from './ItemSelect';
-import AnswerOne from './AnswerOne'
+import AnswerOne from './answers/AnswerOne'
 
 
 const App = () => {

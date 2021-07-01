@@ -11,38 +11,32 @@ const ItemSelect = () => {
     }
 
     return (
-        <div style={{ textAlign: 'center' }}>
-            <h1 style={{ color: '#276678' }}>項目選択</h1>
-            <h3 style={{ color: '#276678' }}>一覧表</h3>
-            <div style={{
-                display: 'inline-flex',
-                flexDirection: 'column',
-                justifyContent: 'space-between',
-                height: '300px'
-
-            }}>
-                <Button variant="contained" color="primary" type="submit" onClick={handleClick}>
-                    <Link to='/AnswerOne' style={{ textDecoration: 'none', color: '#fff' }}>
+        <div className='item-wrap'>
+            <h1>項目選択</h1>
+            <h3>一覧表</h3>
+            <div className='select-btn'>
+                <Button className='stage-btn' variant="contained" color="primary" type="submit" onClick={handleClick}>
+                    <Link to='/AnswerOne' className='link'>
                         ステージ1
                     </Link>
                 </Button>
-                <Button variant="contained" color="primary" type="submit" >
-                    <Link to='/AnswerOne' style={{ textDecoration: 'none', color: '#fff' }}>
+                <Button className='stage-btn' variant="contained" color="primary" type="submit" >
+                    <Link to='/AnswerOne' className='link'>
                         ステージ2
                     </Link>
                 </Button>
-                <Button variant="contained" color="primary" type="submit" >
-                    <Link to='/AnswerOne' style={{ textDecoration: 'none', color: '#fff' }}>
+                <Button className='stage-btn' variant="contained" color="primary" type="submit" >
+                    <Link to='/AnswerOne' className='link'>
                         ステージ3
                     </Link>
                 </Button>
-                <Button variant="contained" color="primary" type="submit" >
-                    <Link to='/AnswerOne' style={{ textDecoration: 'none', color: '#fff' }}>
+                <Button className='stage-btn' variant="contained" color="primary" type="submit" >
+                    <Link to='/AnswerOne' className='link'>
                         ステージ4
                     </Link>
                 </Button>
-                <Button variant="contained" color="secondary" type="submit" >
-                    <Link to='/AnswerOne' style={{ textDecoration: 'none', color: '#fff' }}>
+                <Button className='stage-btn' variant="contained" color="secondary" type="submit" >
+                    <Link to='/AnswerOne' className='link'>
                         最終ステージ
                     </Link>
                 </Button>
