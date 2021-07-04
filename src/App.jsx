@@ -5,7 +5,7 @@ import { Header } from "./Header";
 import { SignUp, Login, Home } from "./template/index";
 
 import ItemSelect from "./pages/ItemSelect";
-import AnswerOne from "./pages/Answer";
+import Answer from "./pages/Answer";
 import { AuthProvider } from "./Auth";
 import LoggedInRoute from "./LoggedInRpute";
 
@@ -21,7 +21,7 @@ const App = () => {
           <Router>
             <Switch>
               <Route exact path={"/ItemSelect"} component={ItemSelect} />
-              <Route exact path={"/AnswerOne"} component={AnswerOne} />
+              <Route exact path={"/Answer"} component={Answer} />
               <Route exact path={"/signup"} component={SignUp} />
               <Route exact path={"/login"} component={Login} />
               <LoggedInRoute exact path={"(/)?"} component={Home} />
