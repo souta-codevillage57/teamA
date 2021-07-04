@@ -8,8 +8,8 @@ import {
 
 
 
-import ItemSelect from './ItemSelect';
-import AnswerOne from './answers/AnswerOne'
+import ItemSelect from './pages/ItemSelect';
+import AnswerOne from './pages/Answer'
 
 
 const App = () => {
