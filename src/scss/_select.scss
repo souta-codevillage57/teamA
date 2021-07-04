@@ -1,9 +1,6 @@
-.item-wrap {
+.item-wrap{
     text-align: center;
     align-items: center;
-    background-color:#D3E0EA;
-    height: 100vh;
-    font-family:monospace;
 }
 
 .select-btn {
@@ -11,27 +8,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70%;
+    height: 300px;
 }
 
-.link {
-    text-decoration:none;
-    color: #000;
+.link{
+    text-decoration: none;
+    color:#fff;
 }
 
-.stage-btn {
+.stage-btn{
     width: 200px;
-}
 
-.title {
-    font-size: 55px;
-    padding: 20px 20px;
-    color: #276678;
-    font-style:initial;
-}
-
-.list {
-    font-size: 40px;
-    margin-bottom: 40px;
-    color:#1687A7
 }
