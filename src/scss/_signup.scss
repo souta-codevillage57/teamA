@@ -1,0 +1,43 @@
+/*********** Module Spacer ***********/
+.module-spacer {
+  &-extra-small {
+    height: 12px;
+  }
+  &-small {
+    height: 20px;
+  }
+  &-medium {
+    height: 32px;
+  }
+}
+
+/*********** signup ***********/
+.signup {
+  &_container {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 1rem;
+    height: auto;
+    width: calc(100% - 2rem);
+  }
+  &_headline {
+    color: #4dd0e1;
+    font-size: 1.563rem;
+    margin: 0 auto 1rem auto;
+  }
+  &_text_center {
+    text-align: center;
+  }
+  &_center {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #d3e0ea;
+}
