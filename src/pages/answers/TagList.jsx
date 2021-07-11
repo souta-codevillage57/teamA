@@ -4,13 +4,13 @@ import Tag from "./Tag";
 const TagList = (props) => {
   return (
     <>
-      <Tag tag={props.tag} />
-      <Tag tag={props.tag} />
-      <Tag tag={props.tag} />
-      <Tag tag={props.tag} />
-      <Tag tag={props.tag} />
-      <Tag tag={props.tag} />
-      <Tag tag={props.tag} />
+      <Tag tag={"const"} />
+      <Tag tag={"()"} />
+      <Tag tag={"="} />
+      <Tag tag={"=>"} />
+      <Tag tag={"{"} />
+      <Tag tag={"}"} />
+      <Tag tag={";"} />
     </>
   );
 };

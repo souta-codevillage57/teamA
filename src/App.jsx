@@ -9,8 +9,8 @@ import Answer from "./pages/Answer";
 import { AuthProvider } from "./Auth";
 import LoggedInRoute from "./LoggedInRpute";
 
-import "./scss/main.css";
-import "./scss/main.css.map";
+import "./sass/main.css";
+import "./sass/main.css.map";
 
 const App = () => {
   return (

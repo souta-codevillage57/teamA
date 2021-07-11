@@ -1,22 +1,13 @@
-.item-wrap{
-    text-align: center;
-    align-items: center;
-}
+.item{
+    &_title{
+        font-style: 300rem;
+    }
+    &_list{
 
-.select-btn {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-}
-
-.link{
-    text-decoration: none;
-    color:#fff;
-}
-
-.stage-btn{
-    width: 200px;
-
+    }
+    &_btn{
+        display: inline-block;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 }

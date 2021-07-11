@@ -10,10 +10,10 @@ const ItemSelect = () => {
   };
 
   return (
-    <div className="item-wrap">
-      <h1 className="title">項目選択画面</h1>
-      <h3 className="list">一覧表</h3>
-      <div className="select-btn">
+    <div className="item">
+      <h1 className="titem_itle">項目選択画面</h1>
+      <h3 className="lite_list">一覧表</h3>
+      <div className="item_btn">
         <Button
           className="stage-btn"
           variant="contained"

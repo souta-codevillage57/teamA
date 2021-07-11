@@ -1,7 +1,11 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
+*, *::after, *::before {
+  box-sizing: border-boxzs;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -120,36 +124,74 @@ table {
   text-align: center;
 }
 
-.item-wrap {
+.item_title {
+  font-style: 300rem;
+}
+
+.item_btn {
+  display: inline-block;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.answer-wrap {
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #D3E0EA;
+  font-family: monospace;
 }
 
-.select-btn {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.answer-wrap .title {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #276678;
+}
+
+.question {
+  font-size: 20px;
+  color: #1687A7;
+}
+
+.next-btn {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.answerBox {
+  border: 1px solid #1687A7;
+  width: 90%;
+  height: 100px;
+  position: absolute;
+  bottom: 60px;
+  left: 5%;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 300px;
+  justify-content: space-between;
 }
 
-.link {
-  text-decoration: none;
-  color: #fff;
+.answerSelect {
+  width: 10%;
+  height: 30px;
+  padding: 10px 10px;
+  line-height: 5%;
 }
 
-.stage-btn {
-  width: 200px;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.67;
+}
+
+.inner {
+  width: 80.6%;
+  padding: 90px 0;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
